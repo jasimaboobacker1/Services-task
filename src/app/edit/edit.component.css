@@ -1,0 +1,26 @@
+.containerrr {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.form{
+    width: 400px;
+    height: auto;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+}
+.btn{
+    padding: 7px;
+    border: none;
+    background-color: rgb(238, 39, 39);
+    border-radius: 5px;
+    color: white;
+
+}

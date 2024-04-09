@@ -1,0 +1,9 @@
+<div class="containerrr">
+    <div class="form">
+      <label for="newTitle" style="width: 100px;">Title:</label>
+      <input id="newTitle" [(ngModel)]="task.title" name="title" required><br>
+      <label for="newDescription" style="width: 100px;">Description:</label>
+      <input id="newDescription" [(ngModel)]="task.description" name="description" required><br> 
+      <button class="btn" (click)="updateTask()">Update</button>    </div>
+  </div>
+  
