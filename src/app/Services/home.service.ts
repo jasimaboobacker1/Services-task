@@ -8,10 +8,16 @@ export class HomeService {
 
   constructor(private router:Router) { }
 
-  public tasks: { id: number, title: string, description: string }[] = [
-   
-   
+  tasks: { id: number, title: string, description: string }[] = [
+    { id: 1, title: 'Complete Angular Tutorial', description: 'Finish the tutorial on Angular basics' },
+    { id: 2, title: 'Prepare for Interview', description: 'Review common interview questions and practice answers' },
+    { id: 3, title: 'Buy Groceries', description: 'Pick up vegetables, fruits, and bread from the store' },
+    { id: 4, title: 'Call Mom', description: 'Check in with mom and catch up on family news' }
   ];
+  
+   
+   
+
   
   // add task
   addTask(title: string, description: string): void {
